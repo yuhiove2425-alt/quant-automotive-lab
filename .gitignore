@@ -1,0 +1,15 @@
+# 의존성 · 빌드 결과
+node_modules/
+dist/
+*.log
+
+# API 키가 들어 있는 환경 변수 파일 — 커밋하지 않습니다 (.env.example만 공유)
+.env
+.env.*
+!.env.example
+
+# 실행 중 생기는 사용자별 보관함 데이터
+backend/data/
+
+# 로컬 개발 도구 설정 (기기별 정보 포함)
+.claude/
